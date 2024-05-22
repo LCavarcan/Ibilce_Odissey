@@ -1,13 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
+import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import Inicio from './componentes/Inicio';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import MyStack from './componentes/MyStack';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Inicio/>
-    </View>
+    <SafeAreaView style={{flex: 1}}>
+      <NavigationContainer>
+        {/* Chama o MyStack com as telas que usaremos */}
+        <MyStack/> 
+      </NavigationContainer>
+    </SafeAreaView>
   );
 }
 

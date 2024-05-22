@@ -8,6 +8,6 @@ export default estilo = StyleSheet.create ({
         padding: 5
     },
     titulo: {
-        fontFamily: "Minecraftia"
+        fontSize: 30
     }
 })
