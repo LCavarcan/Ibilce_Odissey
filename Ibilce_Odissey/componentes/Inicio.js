@@ -14,7 +14,7 @@ export default function Inicio() {
         style={Estilo.botao} 
         title="Novo Jogo" 
         onPress={() => {
-          navigation.navigate('Criar');
+          navigation.navigate('Login');
         }}
       />
       {/* Ainda tem que criar a tela para carregar o jogo e salvar os dados dos usuários */}
