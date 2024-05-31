@@ -9,6 +9,9 @@ import Login from './login';
 import DCCE from './DCCE';
 import UAI from './UAI';
 import BlocoC from './BlocoC';
+import GCC from './GCC';
+import GSPD from './GSPD.js';
+
 const Stack = createNativeStackNavigator()
 
 export default function MyStack() {
@@ -24,6 +27,8 @@ export default function MyStack() {
             <Stack.Screen name='DCCE' component={DCCE}/>
             <Stack.Screen name='UAI' component={UAI}/>
             <Stack.Screen name='BlocoC' component={BlocoC}/>
+            <Stack.Screen name='GCC' component={GCC}/>
+            <Stack.Screen name='GSPD' component={GSPD}/>
         </Stack.Navigator>
     )
 }

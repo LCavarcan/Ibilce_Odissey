@@ -27,20 +27,20 @@ export default function Criar() {
             <Button
                 title="Iniciar Jogo"
                 onPress={() => {
-                switch (selectedIndex) {
-                    case 0:
-                    navigation.navigate('ACME');
-                    break;
-                    case 1:
-                    navigation.navigate('GCC');
-                    break;
-                    case 2:
-                    navigation.navigate('GSPD');
-                    break;
-                    case 3:
-                    navigation.navigate('Lidia');
-                    break;
-                }
+                    switch (selectedIndex) {
+                        case 0:
+                        navigation.navigate('ACME');
+                        break;
+                        case 1:
+                        navigation.navigate('GCC');
+                        break;
+                        case 2:
+                        navigation.navigate('GSPD');
+                        break;
+                        case 3:
+                        navigation.navigate('Lidia');
+                        break;
+                    }
                 }}
             />
         </View>
